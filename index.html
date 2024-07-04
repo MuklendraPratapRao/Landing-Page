@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarryFitness - The best fitness gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">ALPHAGYM</div>
+                <ul class="navbar flex items-center">
+                    <li><button id="home">Home</button></li>
+                    <li><button id="home">About</button></li>
+                    <li><button id="home">Services</button></li>
+                    <li><button id="home">Contact Us</button></li>
+                    <li><button id="home">Join Now</button></li>
+
+                    <!--  <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li> 
+                    <li><button class="btn">Join Now</button></li> -->
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                        <p class=" text-center">
+                            "Push beyond your limits today so you can achieve the strength you desire tomorrow. Remember, every rep, every set, every drop of sweat is a step closer to your goal. Stay consistent, stay determined, and never give up. The pain you feel today will be the strength you feel tomorrow."</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button id="home">Join now</button>
+                                <button id="home">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">
+                    "Gym pricing varies based on location, facilities, and services offered. Basic memberships are generally affordable, while premium options with personal training, classes, and advanced equipment cost more. Seasonal promotions and discounts can provide savings. Always compare benefits versus costs to ensure you're getting the best value for your fitness investment."</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Free</h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button id="home">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹150/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button id="home">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Enterprise</h2>
+                        <ul>
+                            <li class="highlighted">₹500/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button id="home">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Free</th>
+                          <th>Pro</th>
+                          <th>Enterprise</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Public</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Private</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Permissions</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Sharing</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Unlimited members</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Extra security</th>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; Alphagym.com | All rights reserved
+        </footer>
+
+    </div>
+
+    <script src="timer.js"></script>
+</body>
+
+</html>
